@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+* {
+  margin: 4px;
+}
+
+.title {
+  margin: 20px;
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.input-container > div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 5fr;
+  justify-items: left;
+  align-items: center;
+}
+
+.input-container > div > label {
+  grid-column: 1;
+
+  padding: 0 5px;
+}
+
+.input-container > div > input,
+.input-container > div > select {
+  grid-column: 2;
+}
+
+.input-container > div > button {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.input-container > div:has(select) {
+  grid-column: 1;
+}
+
+.input-container > div > select {
+  min-width: 100px;
+}
+
+.input-container > div:has(input[type="checkbox"]) {
+  grid-column: 2;
+
+  grid-template-columns: 2fr 3fr;
+}
+
+.input-container > div > input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.screenshot {
+  width: 600px;
+  min-height: 337.5px;
+  border: 2px solid;
+  border-radius: 1%;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

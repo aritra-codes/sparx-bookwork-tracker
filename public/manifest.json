@@ -1,0 +1,51 @@
+{
+    "manifest_version": 3,
+    "name": "Sparx Bookwork Tracker",
+    "version": "1.0.0",
+    "description": "Tracks your answers and shows you the answer to bookwork checks. Also, includes option to automatically click 'next' buttons. Less work, More progress! 💪",
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "storage",
+      "unlimitedStorage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "js": [
+          "contentScript.js"
+        ],
+        "css": [
+          "assets/contentScript.css"
+        ],
+        "matches": [
+          "https://*.sparxmaths.com/student/*",
+          "https://*.sparxmaths.uk/student/*"
+        ]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "images/answer_not_found.png"
+        ],
+        "matches": [
+          "https://*.sparxmaths.com/*",
+          "https://*.sparxmaths.uk/*"
+        ]
+      }
+    ]
+  }
