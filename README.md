@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="readme_files/logo.png" alt="Sparx Bookwork Tracker logo" width="200">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  # Sparx Bookwork Tracker
 
-Currently, two official plugins are available:
+  ## Tired of bookwork checks? ✅
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  `Sparx Bookwork Tracker` **automatically** tracks your answers and shows you the answer to bookwork checks. Also, includes option to **automatically** click 'next' buttons.
 
-## Expanding the ESLint configuration
+  **Less work, More progress! 💪**
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# ⬇️ Installation
+Currently only supported by browsers that allow Chrome-based extensions (e.g. Chrome, Brave, Edge, Opera).
