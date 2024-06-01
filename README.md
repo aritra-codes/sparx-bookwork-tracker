@@ -26,7 +26,7 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 - Open your browser.
 - Turn on 'Developer mode' (you may not need to do this, specifics differ depending on the browser)
 - Click on 'Load unpacked' and select the extracted folder.
-- Turn on the extension and you're ready to go!\
+- Turn on the extension and you're ready to go!
 
 ---
 
