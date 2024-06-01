@@ -12,6 +12,8 @@
   ![A gif of the extension running](readme_files/running.gif)
 </div>
 
+---
+
 # ⬇️ Installation
 Currently only supported by browsers that allow Chrome-based extensions (e.g. Chrome, Brave, Edge, Opera).
 
