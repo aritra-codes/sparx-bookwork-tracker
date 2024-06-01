@@ -3,6 +3,9 @@
 
   # Sparx Bookwork Tracker
 
+  ![GitHub Release Date](https://img.shields.io/github/release-date/aritra-codes/sparx-bookwork-tracker)
+
+
   ## Tired of bookwork checks? ✅
 
   `Sparx Bookwork Tracker` **automatically** tracks your answers and shows you the answer to bookwork checks. Also, includes option to **automatically** click 'next' buttons.
