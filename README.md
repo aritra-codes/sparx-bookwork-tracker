@@ -21,7 +21,7 @@
 Currently only supported by browsers that allow Chrome-based extensions (e.g. Chrome, Brave, Edge, Opera).
 
 - Click on the latest release (on the right of the page, under the 'About' section).
-- Download 'Sparx Bookwork Tracker.zip'.
+- Download 'SparxBookworkTracker.zip'.
 - Extract the file (and move the extracted folder to a location you prefer).
 - Open your browser.
 - Turn on 'Developer mode' (you may not need to do this, specifics differ depending on the browser)
