@@ -120,7 +120,7 @@ const observer = new MutationObserver(mutations => {
                                 }
                             });
                         });
-                    }, 100);
+                    }, 250);
                 }
                 // Everytime a new task is started, the homework info (date and type) and package ID are saved.
                 else if (element.matches("a._Task_1p2y5_1._TaskClickable_1p2y5_22")) {
