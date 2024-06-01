@@ -19,9 +19,11 @@ const screenshotAnswer = (packageID: string, bookworkCode: string) => {
     });
 }
 
-chrome.runtime.onMessage.addListener(request => {
+chrome.runtime.onMessage.addListener((request, _sender, sendResponse) => {
     if (request.action === "takeScreenshot") {
         screenshotAnswer(request.packageId, request.bookworkCode);
+
+        sendResponse();
     }
     else if (request.action === "setHomeworkInfos") {
         chrome.storage.local.get("homeworkInfos", (res) => {

@@ -108,19 +108,19 @@ const observer = new MutationObserver(mutations => {
                     const bookworkCode = (document.querySelector("div._Chip_bu06u_1") as HTMLDivElement).innerText.split(": ")[1];
 
                     setTimeout(() => {
-                        chrome.runtime.sendMessage({ action: "takeScreenshot", packageId: getPackageId(location.href), bookworkCode });
+                        chrome.runtime.sendMessage({ action: "takeScreenshot", packageId: getPackageId(location.href), bookworkCode }, () => {
+                            // After the screenshot has been taken, if auto next is on, the continue button is clicked.
+                            chrome.storage.local.get("autoNext", (res) => {
+                                if (res.autoNext === true) {
+                                    const continueButton = document.querySelector("a._ButtonBase_nt2r3_1") as HTMLAnchorElement;
 
-                        // If auto next is on, the continue button is clicked
-                        chrome.storage.local.get("autoNext", (res) => {
-                            if (res.autoNext === true) {
-                                const continueButton = document.querySelector("a._ButtonBase_nt2r3_1") as HTMLAnchorElement;
-
-                                if (continueButton && (continueButton.innerText === "Continue" || continueButton.innerText === "Summary")) {
-                                    continueButton.click();
+                                    if (continueButton && (continueButton.innerText === "Continue" || continueButton.innerText === "Summary")) {
+                                        continueButton.click();
+                                    }
                                 }
-                            }
+                            });
                         });
-                    }, 250);
+                    }, 100);
                 }
                 // Everytime a new task is started, the homework info (date and type) and package ID are saved.
                 else if (element.matches("a._Task_1p2y5_1._TaskClickable_1p2y5_22")) {
