@@ -27,7 +27,8 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 - Download 'SparxBookworkTracker.zip'.
 - Extract the file (and move the extracted folder to a location you prefer).
 - Open your browser.
-- Go to 'Extensions' (or 'Add-ons') and turn on 'Developer mode' (you may not need to do this, specifics differ depending on the browser).
+- Go to 'Extensions' (or 'Add-ons').
+- Turn on 'Developer mode' (you may not need to do this, specifics differ depending on the browser).
 - Click on 'Load unpacked' and select the extracted folder.
 - Turn on the extension and you're ready to go!
 
