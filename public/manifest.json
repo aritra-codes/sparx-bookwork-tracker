@@ -32,8 +32,8 @@
           "assets/contentScript.css"
         ],
         "matches": [
-          "https://*.sparxmaths.com/student/*",
-          "https://*.sparxmaths.uk/student/*"
+          "https://*.sparxmaths.com/*",
+          "https://*.sparxmaths.uk/*"
         ]
       }
     ],

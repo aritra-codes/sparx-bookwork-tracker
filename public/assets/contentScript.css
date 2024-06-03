@@ -1,3 +1,7 @@
+:root {
+    --user-select-accessibility-setting: default !important; /* Makes all text selectable */
+}
+
 .screenshot {
     width: 600px;
     min-height: 337.5px;

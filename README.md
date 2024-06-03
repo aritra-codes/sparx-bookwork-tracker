@@ -4,18 +4,28 @@
   # Sparx Bookwork Tracker
 
   ![GitHub Release Date](https://img.shields.io/github/release-date/aritra-codes/sparx-bookwork-tracker)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/aritra-codes/sparx-bookwork-tracker)
+
 
 
   ## Tired of bookwork checks? ✅
 
-  `Sparx Bookwork Tracker` **automatically** tracks your answers and shows you the answer to bookwork checks. Also, includes option to **automatically** click 'next' buttons.
+  `Sparx Bookwork Tracker` **automatically** tracks your answers and shows you the answer to bookwork checks. Also includes more time-saving features!
 
   **Less work, More progress! 💪**
 
   ![A gif of the extension running](readme_files/running.gif)
 
-  If this helps you, please ⭐ the repository & [follow me](https://github.com/aritra-codes)!
+  If this helps you, please ⭐ the repository & [follow me](https://github.com/aritra-codes) :D
 </div>
+
+---
+
+# ✨ Features
+
+- Automatically saves answers and shows you the **answer to bookwork checks**.
+- Automatically **clicks 'next' buttons** (e.g. Continue, Next task) when Auto-next is on.
+- Makes **all text selectable**.
 
 ---
 
