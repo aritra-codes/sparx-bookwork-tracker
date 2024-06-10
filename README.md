@@ -48,7 +48,7 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 
 # 😊 Reviews
 
-*"Truly, an impressive extension; it has saved me countless hours of noting down worthless checks! A feat of engineering that surely cannot be topped- its sleek design and easy usage makes the Sparx Bookwork Checker dominant over all."*
+*"Truly, an impressive extension; it has saved me countless hours of noting down worthless checks! A feat of engineering that surely cannot be topped- its sleek design and easy usage makes the Sparx Bookwork Tracker dominant over all."*
 
 \- [Etaj](https://github.com/Etaj-codes)
 
