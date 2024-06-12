@@ -5,8 +5,7 @@
 
   ![GitHub Release Date](https://img.shields.io/github/release-date/aritra-codes/sparx-bookwork-tracker)
   ![GitHub Repo stars](https://img.shields.io/github/stars/aritra-codes/sparx-bookwork-tracker)
-
-
+  ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/aritra-codes/sparx-bookwork-tracker/total)
 
   ## Tired of bookwork checks? ✅
 
