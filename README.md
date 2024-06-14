@@ -57,6 +57,7 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 
 ---
 
-# Message for Sparx
+# ‼️ Disclaimer
+This project is not associated with Sparx Maths.
 
 If you have any problems with this project, please send me an email at aritra8.codes@gmail.com.
