@@ -11,11 +11,11 @@
     "watch-build": "nodemon"
   },
   "dependencies": {
-    "html2canvas": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/chrome": "^0.0.268",
     "@types/node": "^20.12.12",
     "@types/react": "^18.2.66",

@@ -25,3 +25,4 @@ nodemon.json
 *.njsproj
 *.sln
 *.sw?
+.prettierrc

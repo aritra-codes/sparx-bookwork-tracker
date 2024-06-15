@@ -1,5 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from "@vitejs/plugin-react";
+
+import { defineConfig } from "vite";
+
+const extraTsFilenames = ["contentScript", "background"];
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,20 +10,21 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: 'popup.html',
-        contentScript: 'src/contentScript.ts',
-        background: 'src/background.ts'
+        main: "popup.html",
+        ...Object.fromEntries(
+          extraTsFilenames.map((filename) => [filename, `src/${filename}.ts`]),
+        ),
       },
       output: {
         entryFileNames: (chunkInfo) => {
-          if (['contentScript', 'background'].includes(chunkInfo.name)) {
-            return '[name].js';
+          if (["contentScript", "background"].includes(chunkInfo.name)) {
+            return "[name].js";
           }
-          return 'assets/[name].js';
+          return "assets/[name].js";
         },
-        chunkFileNames: 'assets/[name].js',
-        assetFileNames: 'assets/[name].[ext]'
-      }
-    }
-  }
-})
+        chunkFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name].[ext]",
+      },
+    },
+  },
+});
