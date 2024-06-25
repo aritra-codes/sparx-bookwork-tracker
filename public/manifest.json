@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Sparx Bookwork Tracker",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "description": "Tracks your answers and shows you the answer to bookwork checks. Also includes more time-saving features! Less work, More progress! 💪",
     "icons": {
       "16": "images/icon16.png",
