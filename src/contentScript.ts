@@ -1,14 +1,14 @@
 // CSS selectors
-const accuracyTextSelector = "div._AccuracyText_1gvq7_41";
-const actionAnchorSelector = "a._ButtonBase_nt2r3_1";
-const actionButtonSelector = "button._ButtonBase_nt2r3_1";
-const bookworkCodeContainerSelector = "div._Chip_bu06u_1";
+const accuracyTextSelector = "div[class*='_AccuracyText']";
+const actionAnchorSelector = "a[class*='_ButtonBase']";
+const actionButtonSelector = "button[class*='_ButtonBase']";
+const bookworkCodeContainerSelector = "div[class*='_Chip']";
 const resultPopoverSelector = "div#RESULT_POPOVER";
-const startTaskButtonSelector = "a._Task_1p2y5_1._TaskClickable_1p2y5_22";
-const summaryContainerSelector = "div._SummaryContainer_o2hat_1";
-const taskContainerSelector = "div._AccordionItem_9fvag_7";
-const taskInfoSelector = "div._PackageLeft_s1pvn_28 > span";
-const WACContainerSelector = "div._WACContainer_1cxo7_1";
+const startTaskButtonSelector = "a[class*='_Task'][class*='_TaskClickable']";
+const summaryContainerSelector = "div[class*='_SummaryContainer']";
+const taskContainerSelector = "div[class*='_AccordionItem']";
+const taskInfoSelector = "div[class*='_PackageLeft'] > span";
+const WACContainerSelector = "div[class*='_WACContainer']";
 
 // InnerTexts
 const continueButtonText = "Continue";
