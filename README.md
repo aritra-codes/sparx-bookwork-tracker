@@ -48,6 +48,15 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 
 ---
 
+# 🔄 Updating
+
+**If you are in the middle of doing homework, either finish the homework or log out then log back in after updating.**
+
+- Remove the extension from your browser in 'Extensions' (or 'Add-ons').
+- Follow the installations instructions above.
+
+---
+
 # 😊 Reviews
 
 *"Truly, an impressive extension; it has saved me countless hours of noting down worthless checks! A feat of engineering that surely cannot be topped- its sleek design and easy usage makes the Sparx Bookwork Tracker dominant over all."*
