@@ -50,7 +50,7 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 
 # 🔄 Updating
 
-**If you are in the middle of doing homework, either finish the homework or log out then log back in after updating.**
+**If you are in the middle of doing homework, either finish the homework or log out of Sparx then log back in after updating.**
 
 - Remove the extension from your browser in 'Extensions' (or 'Add-ons').
 - Follow the installations instructions above.
