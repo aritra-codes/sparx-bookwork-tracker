@@ -13,7 +13,7 @@
 
   **Less work, More progress! 💪**
 
-  ![A gif of the extension running](readme_files/running.gif)
+  ![GIF of the extension running](readme_files/running.gif)
 
   If this helps you, please ⭐ the repository & [follow me](https://github.com/aritra-codes) :D
 </div>
@@ -34,7 +34,7 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 
 - Click on the latest [release](https://github.com/aritra-codes/sparx-bookwork-tracker/releases/) (under the 'About' section).
 
-<img src="readme_files/releases.png" alt="Sparx Bookwork Tracker logo" width="500">
+<img src="readme_files/latest_release.png" alt="Latest release" width="500">
 
 - Download 'SparxBookworkTracker.zip'.
 - Extract the file (and move the extracted folder to a location you prefer).
