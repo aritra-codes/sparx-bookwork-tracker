@@ -57,6 +57,24 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 
 ---
 
+# 🖱️ Usage
+
+General:
+
+- Your answers will automatically be saved and shown to you when there is a bookwork check, you don't need to set-up anything.
+- All text can now be selected and copied.
+  
+  <img src="readme_files/selectable_text.png" alt="Selectable text" width="400">
+
+Popup:
+
+<img src="readme_files/popup.png" alt="Popup" width="400">
+
+- Auto-next: Automatically clicks 'next' buttons (e.g. Continue, Next task).
+- Everything else should be self-explanatory.
+
+---
+
 # 😊 Reviews
 
 *"Truly, an impressive extension; it has saved me countless hours of noting down worthless checks! A feat of engineering that surely cannot be topped- its sleek design and easy usage makes the Sparx Bookwork Tracker dominant over all."*
