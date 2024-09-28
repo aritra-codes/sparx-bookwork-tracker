@@ -33,9 +33,8 @@
 Currently only supported by browsers that allow Chrome-based extensions (e.g. Chrome, Brave, Edge, Opera).
 
 - Click on the latest [release](https://github.com/aritra-codes/sparx-bookwork-tracker/releases/) (under the 'About' section).
-
+<br>
 <img src="readme_files/latest_release.png" alt="Latest release" width="500">
-
 - Download 'SparxBookworkTracker.zip'.
 - Extract the file (and move the extracted folder to a location you prefer).
 - Open your browser.
@@ -63,7 +62,7 @@ General:
 
 - Your answers will automatically be saved and shown to you when there is a bookwork check, you don't need to set-up anything.
 - All text can now be selected and copied.
-  
+  <br>
   <img src="readme_files/selectable_text.png" alt="Selectable text" width="400">
 
 Popup:
