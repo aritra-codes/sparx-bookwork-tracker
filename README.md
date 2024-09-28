@@ -33,8 +33,8 @@
 Currently only supported by browsers that allow Chrome-based extensions (e.g. Chrome, Brave, Edge, Opera).
 
 - Click on the latest [release](https://github.com/aritra-codes/sparx-bookwork-tracker/releases/) (under the 'About' section).
-<br>
-<img src="readme_files/latest_release.png" alt="Latest release" width="500">
+  <br>
+  <img src="readme_files/latest_release.png" alt="Latest release" width="500">
 - Download 'SparxBookworkTracker.zip'.
 - Extract the file (and move the extracted folder to a location you prefer).
 - Open your browser.
