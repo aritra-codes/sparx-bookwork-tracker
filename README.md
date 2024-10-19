@@ -30,6 +30,7 @@
 
 # ⬇️ Installation
 
+> [!NOTE]
 Currently only supported by browsers that allow Chrome-based extensions (e.g. Chrome, Brave, Edge, Opera).
 
 - Click on the latest [release](https://github.com/aritra-codes/sparx-bookwork-tracker/releases/) (under the 'About' section).
@@ -43,13 +44,15 @@ Currently only supported by browsers that allow Chrome-based extensions (e.g. Ch
 - Click on 'Load unpacked' and select the extracted folder.
 - Turn on the extension and you're ready to go!
 
-**Make sure to refresh the Sparx website if you are already on it.**
+> [!WARNING]
+Make sure to refresh the Sparx website if you are already on it.
 
 ---
 
 # 🔄 Updating
 
-**If you are in the middle of doing homework, either finish the homework or log out of Sparx then log back in after updating.**
+> [!WARNING]
+If you are in the middle of doing homework, either finish the homework or log out of Sparx then log back in after updating.
 
 - Remove the extension from your browser in 'Extensions' (or 'Add-ons').
 - Follow the installations instructions above.
