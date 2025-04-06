@@ -154,11 +154,8 @@ function App() {
             onChange={updateAutoNext}
           ></input>
 
-          <button onClick={openURL} value="https://www.sparxmaths.com/student/">
-            Go to Sparx International
-          </button>
-          <button onClick={openURL} value="https://www.sparxmaths.uk/student/">
-            Go to Sparx UK
+          <button onClick={openURL} value="https://maths.sparx-learning.com/student">
+            Go to Sparx
           </button>
         </div>
       </div>

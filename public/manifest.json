@@ -32,8 +32,7 @@
           "assets/contentScript.css"
         ],
         "matches": [
-          "https://*.sparxmaths.com/*",
-          "https://*.sparxmaths.uk/*"
+          "https://*.sparx-learning.com/*"
         ]
       }
     ],
@@ -43,8 +42,7 @@
           "images/answer_not_found.png"
         ],
         "matches": [
-          "https://*.sparxmaths.com/*",
-          "https://*.sparxmaths.uk/*"
+          "https://*.sparx-learning.com/*"
         ]
       }
     ]

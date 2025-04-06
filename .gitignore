@@ -26,3 +26,4 @@ nodemon.json
 *.sln
 *.sw?
 .prettierrc
+.qodo
